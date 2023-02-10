@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">shpooi-android</string>
+
+    <!--  product_detail  -->
+    <string name="description_product_thumbnail">상품 상세 대표 이미지</string>
+    <string name="title_product_detail_image">상품설명</string>
+    <string name="description_product_detail_image">상품 상세 이미지</string>
 </resources>
