@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Shpooiandroid.Splash">
+        <item name="android:windowBackground">@color/shoppi_white</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/img_pdp_top_01</item>
+    </style>
+</resources>
