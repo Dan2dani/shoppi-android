@@ -5,4 +5,7 @@
     <string name="description_product_thumbnail">상품 상세 대표 이미지</string>
     <string name="title_product_detail_image">상품설명</string>
     <string name="description_product_detail_image">상품 상세 이미지</string>
+    <string name="bnc_cateogry_label">카테고리</string>
+    <string name="bnv_home_label">홈</string>
+    <string name="bnv_cart_label">장바구니</string>
 </resources>
