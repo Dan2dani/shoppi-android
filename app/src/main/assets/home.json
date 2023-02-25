@@ -1,0 +1,40 @@
+{
+  "title": {
+    "text": "dani님, 이런 상품\n어때요?",
+    "icon_url": "https://user-images.githubusercontent.com/77060011/219864044-39c9d023-ba6e-4b14-9bc5-088cdffb4ba2.png"
+  },
+  "top_banners": [
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/77060011/219864070-fcc3538d-4e6a-4879-a016-98715d613f57.png",
+      "badge": {
+        "label": "기획전",
+        "background_color": "#52514d"
+      },
+      "label": "따스한 겨울\n준비하기",
+      "product_detail": {
+        "brand_name": "twg. official",
+        "label": "캐시미어 100% 터틀넥 스웨터",
+        "discount_rate": 9,
+        "price": 102000,
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/77060011/219864077-9598322e-4027-4bd6-a925-6cda9586680a.png",
+        "product_id": "FW-twg-sweater-1"
+      }
+    },
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/77060011/219864075-ade3b820-cc98-4c8d-8590-da5cb1bb7a60.png",
+      "badge": {
+        "label": "기획전",
+        "background_color": "#967a6d"
+      },
+      "label": "나만의\n홈 오피스",
+      "product_detail": {
+        "brand_name": "Desk",
+        "label": "슬림 데스트 800",
+        "discount_rate": 16,
+        "price": 160000,
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/77060011/219864076-f6f236b8-6d0f-4c07-9061-5f5e4ea9359f.png",
+        "product_id": "desk-1"
+      }
+    }
+  ]
+}
