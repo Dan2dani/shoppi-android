@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-
+    // ktx
+    implementation 'androidx.fragment:fragment-ktx:1.5.5'
     // navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
