@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.shoppi.app.Banner
+import com.shoppi.app.data.model.Banner
 import com.shoppi.app.databinding.ItemHomeBannerBinding
 import java.text.DecimalFormat
 import kotlin.math.roundToInt
