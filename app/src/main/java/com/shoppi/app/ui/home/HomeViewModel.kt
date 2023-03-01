@@ -3,17 +3,28 @@ package com.shoppi.app.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.shoppi.app.Banner
-import com.shoppi.app.Title
+import com.shoppi.app.data.model.Banner
+import com.shoppi.app.data.model.Title
+import com.shoppi.app.data.repository.HomeRepository
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(
+    private val homeRepository: HomeRepository
+) : ViewModel() {
     private val _title = MutableLiveData<Title>()
     val title: LiveData<Title> = _title
 
     private val _topBanners = MutableLiveData<List<Banner>>()
-    val topBaners: LiveData<List<Banner>> =_topBanners
+    val topBaners: LiveData<List<Banner>> = _topBanners
 
-    fun loadHomeData() {
-        // TODO Data Layer - Repository에 요청
+    init {
+        loadHomeData()
+    }
+
+    private fun loadHomeData() {
+        val homeData = homeRepository.getHomeData()
+        homeData?.let { homeData ->
+            _title.value = homeData.title
+            _topBanners.value = homeData.topBanners
+        }
     }
 }
