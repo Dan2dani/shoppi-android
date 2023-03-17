@@ -33,7 +33,7 @@ class HomeBannerAdapter() :
 
 class BannerDiffCallback : DiffUtil.ItemCallback<Banner>() {
     override fun areItemsTheSame(oldItem: Banner, newItem: Banner): Boolean {
-        return oldItem.productDetail.productId == newItem.productDetail.productId
+        return oldItem.product.productId == newItem.product.productId
     }
 
     override fun areContentsTheSame(oldItem: Banner, newItem: Banner): Boolean {
